@@ -1,0 +1,26 @@
+mkdir ~/Desktop/Belgeler/S7/Projet\ encadré/PPE1-2026/Exercices
+HEDEF="/home/ezgi/Desktop/Belgeler/S7/Projet encadré/PPE1-2026/Exercices"
+
+
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ echo "Annotations en 2016 :" > "$HEDEF/comptes.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2016/*.ann | wc -l >> "$HEDEF/comptes.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ echo "Annotations en 2017" >> "$HEDEF/comptes.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2017/*ann | wc -l >> "$HEDEF/comptes.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ echo "Annotations en 2018 :" >> "$HEDEF/comptes.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2018/*.ann | wc -l >> "$HEDEF/comptes.txt"
+
+
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ echo "Annotations en 2016 :" > "$HEDEF/locations.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2016/*.ann | grep "Location" |  wc -l >> "$HEDEF/locations.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ echo "Annotations en 2017 :" >> "$HEDEF/locations.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2017/*.ann | grep "Location" | wc -l >> "$HEDEF/locations.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ echo "Annotations en 2018:" >> "$HEDEF/locations.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2018/*.ann | grep "Location" | wc -l >> "$HEDEF/locations.txt"
+
+
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2016/*.ann | grep "Location" | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > "$HEDEF/classement_2016"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2017/*.ann | grep "Location" | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > "$HEDEF/classement_2017.txt"
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat 2018/*.ann | grep "Locations" | cut -f 3 | sort | uniq -c | sort -n | tail -n 15 > "$HEDEF/classement_2018.txt"
+
+
+ezgi@ezgi:~/PPE1-2627/Exercice1/ann$ cat */*_02_*.ann | grep "Location" | cut -f 3 | sort |  uniq -c | sort -n | tail -n 15 > "$HEDEF/classement_fevrier.txt"
