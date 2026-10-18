@@ -43,7 +43,7 @@ Grâce à l'exercice, j'ai appris ces commandes suivanes :
 
 - grep -v ------> trouves les lignes dans lesquelles le mot NE se trouve PAS
 
--echo "Hello World" -----> print("Hello World")
+- echo "Hello World" -----> print("Hello World")
  
 - cut -f ---> sélectionne les colonnes voulues 
 
@@ -75,5 +75,9 @@ Afin d'éviter cette erreur : "mv: cannot move 'Kyoto' to a subdirectory of itse
 Comment savoir à l'avance que chaque annotation correspond à une seule ligne ?
 Comment comprendre que, dans les dossiers d'annotations, il y a des informations concernant aux locations ? 
 Comment savoir que les noms de lieux se trouvent précisement dans la 3é colonne du fichier ann ??
+
+## Séance 3
+
+### exercices git 
 
 
