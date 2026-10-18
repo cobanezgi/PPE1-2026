@@ -81,3 +81,7 @@ Comment savoir que les noms de lieux se trouvent précisement dans la 3é colonn
 ### exercices git 
 
 ligne bidon : ceci n'est pas une erreur. 
+
+Cette ligne doit rester après correction. 
+
+
