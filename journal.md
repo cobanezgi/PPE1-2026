@@ -163,7 +163,8 @@ Je vais mettre cette ligne de côté.
 
 ### Ce que j'ai fait 
 
-J'ai révisé les siides "Unix" (de la page 30 à la fin) et "web". 
+J'ai révisé les siides "Unix" (de la page 30 à la fin). 
+J'ai fait l'exercice "scripts", sans regarder les Solutions partagées. 
 
 
 ### Pendant cette révision 
@@ -181,3 +182,10 @@ J'ai révisé les siides "Unix" (de la page 30 à la fin) et "web".
     echo 'Bonjour $NOM' -----> résultat : Bonjour $NOM
     
 - On utilise = pour comparer une valeur exacte et fixée, alors qu'on réserve =~ pour tester un format ou choisir parmi plusieurs valeurs possibles grâce aux expressions régulières.
+
+
+### Pendant l'exercice 
+
+- a -ge b --->> si a est superieur ou égal à b
+
+- if [ -d "/home/ezgi/PPE1-2627/Exercice1/ann/$ANNEE" ] --->> il faut écrire tout le chemin 
