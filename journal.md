@@ -92,7 +92,7 @@ Correction d'erreurs
 Je vais mettre cette ligne de côté. 
 
 
-### pendant l'exercice 
+### Pendant l'exercice 
 
 - git log ---> permet d'afficher l'historique chronologique des commits effectués dans un dépot afin de suivre l'évolution du projet 
 
@@ -124,14 +124,14 @@ Je vais mettre cette ligne de côté.
 
 ## 27.10.2027 - révision 
 
-### ce que j'ai fait 
+### Ce que j'ai fait 
 
 - J'ai révisé tout ce qu'on a fait avec les slides "introduction", "git-introduction", "git-more" et "unix" (jusqu'à la page 30).
 
 - J'ai refait les exercices "Commandes" et "pipelines". 
 
 
-### pendant cette révision
+### Pendant cette révision
 
 - git fetch ----> télécharge les modifications distantes sous forme de simples métadonnées sans toucher à tes fichiers locaux, tandis que GIT PULL les télécharge et les fusionne immédiatement dans ta branche de travail.
 
@@ -156,3 +156,28 @@ Je vais mettre cette ligne de côté.
 - &> ------> redirige simultanement stdout et stderr dans un même fichier en écrasant l'existant 
 
 - cmd1 |& cmd2 ----> redirige simultanement la stdout et les stderr de la première commandre ver la stdin de la seconde commande 
+
+
+
+## 28/10/2026 - révision
+
+### Ce que j'ai fait 
+
+J'ai révisé les siides "Unix" (de la page 30 à la fin) et "web". 
+
+
+### Pendant cette révision 
+
+- #!/usr/bin/bash ----> à utiliser pour exécuter les commandes du script. 
+
+- chmod +x script.sh -----> accorde les droits d'exécution. Cette commande n'exécute pas directement le fichier, c'est une autorisation, il faut exécuter le fichier séparémmenet. 
+
+- FICHIER=fichier.txt ----> PAS D'ESPACE
+
+- $(...)  ----> output de la commande s'inscrit dans la variable 
+
+- NOM="Ezgi"
+    echo "Bonjour $NOM" -----> résultat : Bonjour Ezgi
+    echo 'Bonjour $NOM' -----> résultat : Bonjour $NOM
+    
+- On utilise = pour comparer une valeur exacte et fixée, alors qu'on réserve =~ pour tester un format ou choisir parmi plusieurs valeurs possibles grâce aux expressions régulières.
